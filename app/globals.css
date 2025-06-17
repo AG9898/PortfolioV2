@@ -6,6 +6,10 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  @apply antialiased bg-black text-white;
+}
+
 @keyframes fadeinUP {
   0% {
     opacity: 0;

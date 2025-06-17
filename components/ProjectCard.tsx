@@ -15,7 +15,7 @@ export default function ProjectCard({ title, description, image }: ProjectCardPr
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:scale-[1.02] transition"
+      className="bg-neutral-900 p-6 rounded-xl shadow-md hover:scale-105 hover:shadow-lg transition-all duration-300"
     >
       <img src={image} alt={title} className="w-full max-h-48 object-cover rounded-md mb-4" />
       <h3 className="text-xl font-semibold mb-2">{title}</h3>

@@ -22,9 +22,9 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-white font-semibold text-xl">Aden</h1>
         <div className="space-x-6 text-white text-sm">
-          <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#contact" className="hover:underline">Contact</a>
+          <a href="#projects" className="text-neutral-300 hover:text-white transition">Projects</a>
+          <a href="#about" className="text-neutral-300 hover:text-white transition">About</a>
+          <a href="#contact" className="text-neutral-300 hover:text-white transition">Contact</a>
         </div>
       </div>
     </nav>

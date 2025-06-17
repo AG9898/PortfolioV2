@@ -5,7 +5,7 @@ export default function Footer() {
       <p>
         <a
           href="mailto:aden.guowe@example.com"
-          className="hover:text-white transition-colors"
+          className="text-neutral-300 hover:text-white transition"
         >
           aden.guowe@gmail.com
         </a>{" "}
@@ -13,7 +13,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/aden-guo-b39743362/?trk=opento_sprofile_details"
           target="_blank"
-          className="hover:text-white transition-colors"
+          className="text-neutral-300 hover:text-white transition"
         >
           LinkedIn
         </a>{" "}
@@ -21,7 +21,7 @@ export default function Footer() {
         <a
           href="https://github.com/AG9898"
           target="_blank"
-          className="hover:text-white transition-colors"
+          className="text-neutral-300 hover:text-white transition"
         >
           GitHub
         </a>

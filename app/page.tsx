@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-20 text-center" id="home">
       <h1 className="text-5xl md:text-7xl font-bold mb-6">Aden Guo</h1>
-      <p className="text-neutral-400 text-lg max-w-2xl mx-auto leading-relaxed">
+      <p className="text-neutral-400 text-lg max-w-2xl mx-auto text-lg">
         Engineer that 
       </p>
       </section>
@@ -14,7 +14,7 @@ export default function Home() {
       {/* About */}
       <section id="about" className="max-w-3xl mx-auto px-6 py-50 text-center">
       <h2 className="text-3xl font-bold mb-6">About Me</h2>
-      <p className="text-neutral-400 text-lg max-w-2xl mx-auto leading-relaxed">
+      <p className="text-neutral-400 text-lg max-w-2xl mx-auto text-lg">
         A Geomatics Engineering student passionate about building tools that blend geospatial data, web technologies, and user-friendly design.
         I enjoy turning complex data into interactive apps and visualizations that people can actually use.
       </p>
@@ -40,7 +40,7 @@ export default function Home() {
       {/* Contact */}
         <section id="contact" className="max-w-xl mx-auto px-6 py-50 text-center">
           <h2 className="text-3xl font-bold mb-6">Contact</h2>
-          <p className="text-neutral-400 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-neutral-400 text-lg max-w-2xl mx-auto text-lg">
             Want to collaborate or just say hi? Reach out below.
           </p>
         <a

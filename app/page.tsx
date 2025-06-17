@@ -15,7 +15,7 @@ export default function Home() {
       <section id="about" className="max-w-3xl mx-auto px-6 py-50 text-center">
       <h2 className="text-3xl font-bold mb-6">About Me</h2>
       <p className="text-neutral-400 text-lg max-w-2xl mx-auto leading-relaxed">
-        I'm a Geomatics Engineering student passionate about building tools that blend geospatial data, web technologies, and user-friendly design.
+        A Geomatics Engineering student passionate about building tools that blend geospatial data, web technologies, and user-friendly design.
         I enjoy turning complex data into interactive apps and visualizations that people can actually use.
       </p>
       </section>
